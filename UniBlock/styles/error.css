@@ -1,0 +1,30 @@
+body {
+    height: 100%;
+  }
+
+.error p {
+    font-size: 20px;
+}
+
+.error_title {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+@media (max-width:768px){
+
+    .error_title {
+        font-size: 60px;
+    }
+
+    .error p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:576px){
+    .error_title {
+        font-size: 36px;
+    }
+}

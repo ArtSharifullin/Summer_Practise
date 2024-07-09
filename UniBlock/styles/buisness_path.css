@@ -1,0 +1,202 @@
+.title::after {
+    display: none;
+}
+
+.bp-content p {
+    font-size: 18px;
+    
+}
+
+.line2{
+    border-top: 2px solid blue;
+    height: 2px;
+}
+
+.btn-1 {
+    background: linear-gradient(to top right,#15b4ff, blue);
+    color: white;
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+    height: 60px;
+}
+
+.btn-2 {
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px;
+    border: 3px solid blue;
+    height: 60px;
+}
+
+.try {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.try:hover {
+    transform: scale(1.05);
+}
+
+.line{
+    border-top: 1px solid rgb(185, 185, 185);
+}
+
+.posb-of-val p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.psb-title {
+    font-size: 60px;
+}
+
+.block {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85); 
+    box-shadow: 0 0 10px 3px #ccd1ff; 
+    border-radius: 10px;
+    color: black;
+    backdrop-filter: blur(10px);
+}
+
+.block h6 {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(to bottom right, #000000, #15b4ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 7s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block li {
+    font-size: 18px;
+}
+
+.why h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.why h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.why p, .opportunities p {
+    font-size: 18px;
+}
+
+.how_we_work h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.num {
+    color: blue;
+}
+
+.hww-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hww-text {
+    font-size: 14px;
+}
+
+.onetwo, .threefour {
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.colright button {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+@media (max-width:1200px) {
+    .psb-title {
+        font-size: 54px;
+    }
+
+    .block li {
+        font-size: 16px;
+    }
+
+    .block ul {
+        margin-bottom: 0px;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .psb-title {
+        font-size: 40px;
+    }
+
+    .opportunities p {
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .onetwo, .threefour {
+        border-bottom: none;
+    }
+
+    .how_block {
+        border-bottom: 1px solid rgb(185, 185, 185);
+    }
+}
+
+@media (max-width:576px) {
+    .title {
+        font-size: 44px;
+    }
+
+    .psb-title {
+        font-size: 34px;
+    }
+
+    .posb-of-val p {
+        font-size: 16px;
+    }
+
+    .block h6 {
+        font-size: 20px;
+    }
+
+    .block li {
+        font-size: 14px;
+    }
+
+    .why h2 {
+        font-size: 26px;
+    }
+
+    .why p, .why h6 {
+        font-size: 16px;
+    }
+    
+    .how_we_work h1 {
+        font-size: 34px;
+    }
+}

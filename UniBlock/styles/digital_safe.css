@@ -1,0 +1,29 @@
+h6 {
+    font-size: 20px;
+}
+
+button {
+    background: linear-gradient(to top right,#15b4ff, blue);
+    color: white;
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.try {
+  transition: transform 0.3s ease-in-out;
+}
+
+.try:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width:576px){
+  p {
+    font-size: 12px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+}

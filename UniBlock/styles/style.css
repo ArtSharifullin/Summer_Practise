@@ -1,0 +1,155 @@
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #808080;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 0.5s ease-in-out;
+    box-shadow: 0 0px 10px rgb(128, 128, 128);
+    z-index: 999;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+.scroll-to-top:hover {
+    background-color: blue;
+}
+  
+.arrow-up {
+    color: #494949;
+}
+  
+.scroll-to-top:hover .arrow-up {
+    color: #fff;
+}
+  
+  
+
+
+.header-link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.header-link.active {
+    color: blue;
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.active {
+    color: blue;
+}
+
+.contacts a {
+    display: block;
+}
+
+.short_logo {
+    display: none;
+}
+
+.upper_head {
+    border-bottom: 1px solid gray;
+}
+
+.footer {
+    background-color: #1c1cb5;
+    bottom: 0;
+    width: 100%;
+}
+
+.info p {
+    margin-bottom: 0;
+    color: white;
+}
+
+.title {
+    font-size: 70px;
+    text-transform: uppercase;
+    background: linear-gradient(to bottom right, #000000, #15b4ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 7s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+.title:after {
+        content: "";
+        position: absolute;
+        left: 14px;
+        bottom: -10px;
+        width: 5rem; 
+        height: 3px;
+        background-color: blue;
+}
+
+button {
+    appearance: none;
+    border: none;
+}
+  
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+@media (max-width:768px){
+    .short_logo {
+         display:block;
+    }
+    .main_logo {
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    .upper_head {
+        border-bottom: none;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:576px){
+    .title {
+        font-size: 36px;
+    }
+}

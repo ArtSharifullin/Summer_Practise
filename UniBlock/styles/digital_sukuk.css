@@ -1,0 +1,21 @@
+button {
+  background-color: black;
+  color: white;
+  appearance: none;
+  border: none;
+}
+
+.icon_load {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+@media (max-width:576px){
+  p {
+    font-size: 12px;
+  }
+  button {
+    font-size: 14px;
+  }
+}

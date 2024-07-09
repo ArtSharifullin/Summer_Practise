@@ -1,0 +1,53 @@
+.title {
+    background: linear-gradient(to bottom right, #000000, #15b4ff);
+    background-size: 200% 200%;
+    animation: gradientAnimation 7s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+.try {
+    transition: transform 0.3s ease-in-out;
+}
+
+.try:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+  margin-top: 94px;
+}
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+  
+h6 {
+    font-size: 20px;
+}
+
+button {
+    background: linear-gradient(to top right,#15b4ff, blue);
+    color: white;
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+}
+
+@media (max-width:576px){
+  p {
+    font-size: 12px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+}

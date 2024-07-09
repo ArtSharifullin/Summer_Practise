@@ -1,0 +1,141 @@
+.title::after {
+    display: none;
+}
+.block {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85); 
+    box-shadow: 0 0 10px 3px #ccd1ff; 
+    border-radius: 10px;
+    color: black;
+    backdrop-filter: blur(10px);
+}
+
+.block p {
+    font-size: 12px;
+}
+
+.block h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.line{
+    border-top: 1px solid rgb(185, 185, 185);
+}
+
+.RID p {
+    font-size: 14px;
+}
+
+.str h5 {
+    font-size: 20px;
+}
+
+.sec h3, .CFA-left h1 {
+    font-size: 40px;
+}
+
+.sec h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sec p {
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+
+.left-line {
+    border-left: 2px solid blue;
+}
+
+.CFA-types p, .CFA-types li, 
+.UCP-types p, .UCP-types li {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.CFA-left h6, .UCP-left h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.CFA-right h6, .UCP-right h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.num {
+    color: blue;
+}
+
+.button {
+    background: linear-gradient(to top right,#15b4ff, blue);
+    color: white;
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+    height: 60px;
+    font-size: 20px;
+}
+
+.try {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.try:hover {
+    transform: scale(1.05);
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+.sec-title {
+    font-size: 64px;
+}
+
+.top-line {
+    display: none;
+    border-top: 2px solid blue;
+}
+
+@media (max-width:1200px) {
+    .RID p {
+        font-size: 16px;
+    }
+
+    .sec h3 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width:992px) {
+    .RID p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:768px) {
+    .sec-title {
+        font-size: 54px;
+    }
+    .left-line {
+        border-left: none;
+    }
+    .top-line {
+        display: block;
+    }
+    .btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:576px) {
+    .sec-title {
+        font-size: 34px;
+    }
+}

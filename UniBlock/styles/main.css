@@ -1,0 +1,275 @@
+.btn1 {
+    background: linear-gradient(to top right,#15b4ff, blue);
+    color: white;
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+    height: 60px;
+    font-size: 16px;
+}
+
+.btn2 {
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px;
+    border: 3px solid blue;
+    height: 60px;
+    font-size: 16px;
+}
+
+.try {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.try:hover {
+    transform: scale(1.05);
+}
+
+.title:after {
+    display: none;
+}
+
+.block {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85); 
+    box-shadow: 0 0 10px 3px #ccd1ff; 
+    border-radius: 10px;
+    color: black;
+    backdrop-filter: blur(10px);
+}
+
+.advantages p {
+    font-size: 26px;
+    font-weight: 500;
+    position: relative;
+}
+
+.block-text:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    width: 6rem; 
+    height: 2px;
+    background-color: blue;
+}
+  
+.subtitle {
+    font-size: 40px;
+}
+.own_NMA p {
+    font-size:20px;
+}
+
+.num {
+    color: blue;
+}
+
+.onetwo, .threefour, .fivesix {
+    border-top: 1px solid rgb(185, 185, 185);
+}
+
+.opportunities a {
+    text-decoration: none;
+    color: blue;
+}
+
+.opportunities h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hidenRow {
+    display: none;
+}
+
+.hidenRow a{
+    text-decoration: none;
+}
+
+.hDigital_Safe {
+    padding-right: 40px !important;
+}
+
+.NMA {
+    background-image: linear-gradient(to top right, #15b4ff , blue);    
+    color: white;
+    appearance: none;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    transition: background-image 0.8s ease;
+}
+
+.NMA:hover {
+    background-image: linear-gradient(to top right, blue, blue);
+}
+
+.NMA h6 {
+    font-size: 40px;
+}
+
+.NMA p {
+    font-size: 18px;
+}
+
+#NMA-subtext {
+    color: #c6c6ec
+}
+
+.blocks a {
+    text-decoration: none;
+}
+
+.btitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hiden-IMIP-title {
+    display: none;
+}
+
+.btext {
+    font-size: 12px;
+}
+
+.right_blocks a div:hover {
+    background-color: blue;
+    color: white;
+    transition: background 0.5s ease;
+}
+
+.down-blocks a {
+    text-decoration: none;
+}
+
+.down-blocks a div:hover {
+    background-color: blue;
+    color: white;
+    transition: background 0.5s ease-in-out;
+}
+
+.prelast-link {
+    padding-right: 28px !important;
+}
+
+.last-link {
+    padding-left: 6px !important;
+    padding-right: 40px !important;
+}
+
+@media (max-width:1400px) {
+    .down-blocks .btitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:1200px){
+    .advantages p {
+        font-size: 20px;
+    }
+
+    .own_NMA p {
+        font-size: 18px;
+    }
+
+    .opportunities h6 {
+        font-size: 16px;
+    }
+
+    .opportunities p {
+        font-size: 12px;
+    }
+
+    .UniBlockChain, .Digital_Safe {
+        display: none;
+    }
+
+    .NMA p {
+        font-size: 14px;
+    }
+
+    .hidenRow {
+        display: block;
+    }
+
+    .down-blocks .btext {
+        display: none;
+    }
+
+    .down-blocks .btitle {
+        margin-bottom: 0px;
+    }
+
+    .hiden-IMIP-title {
+        display: block;
+    }
+
+    .longtitle {
+        display: none;
+    }
+}
+
+@media (max-width:992px){
+    .subtitle {
+        font-size: 36px;
+    }
+
+    .hidenRow {
+        display: none;
+    }
+
+    .UniBlockChain, .Digital_Safe {
+        display: block;
+    }
+
+    .prelast-link {
+        padding-right: 12px !important;
+    }
+    
+    .last-link {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+}
+
+@media (max-width:768px){
+    .onetwo, .threefour, .fivesix {
+        border-top: none;
+    }
+
+    .op-block {
+        border-top: 1px solid rgb(185, 185, 185); 
+    }
+
+    .opportunities h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:576px){
+    .FoFI-text {
+        font-size: 12px;
+    }
+
+    .advantages p {
+        font-size: 16px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .own_NMA p {
+        font-size: 16px;
+    }
+
+    .opportunities h1 {
+        font-size: 40px;
+    }
+
+    .NMA h6 {
+        font-size: 30px;
+    }
+}
